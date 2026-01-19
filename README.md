@@ -1,4 +1,17 @@
+windows:
+# 1. 激活你已创建的 IDM-VTON 环境
+conda activate IDM-VTON
 
+# 1. 先删除可能已存在的旧环境（如果存在）
+conda env remove -n IDM-VTON
+
+# 2. 使用你的YAML文件创建全新的环境
+conda env create -f environment.yaml
+
+pip install huggingface_hub==0.20.2
+
+
+===============================================================================================
 <div align="center">
 <h1>IDM-VTON: Improving Diffusion Models for Authentic Virtual Try-on in the Wild</h1>
 

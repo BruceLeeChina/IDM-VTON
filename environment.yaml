@@ -4,13 +4,12 @@ channels:
   - nvidia
   - defaults
 dependencies:
-  - python=3.10.0=h12debd9_5
-  - pytorch=2.0.1=py3.10_cuda11.8_cudnn8.7.0_0
-  - pytorch-cuda=11.8=h7e8668a_5
-  - torchaudio=2.0.2=py310_cu118
-  - torchtriton=2.0.0=py310
-  - torchvision=0.15.2=py310_cu118
-  - pip=23.3.1=py310h06a4308_0
+  - python=3.10
+  - pytorch=2.0.1
+  - pytorch-cuda=11.8
+  - torchaudio=2.0.2
+  - torchvision=0.15.2
+  - pip
 
   - pip:
       - accelerate==0.25.0
@@ -19,7 +18,6 @@ dependencies:
       - transformers==4.36.2
       - diffusers==0.25.0
       - einops==0.7.0
-      - bitsandbytes==0.39.0
       - scipy==1.11.1
       - opencv-python
       - gradio==4.24.0
@@ -30,3 +28,4 @@ dependencies:
       - basicsr
       - av
       - onnxruntime==1.16.2
+#      - bitsandbytes==0.39.0
