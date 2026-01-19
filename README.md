@@ -11,6 +11,9 @@ conda env create -f environment.yaml
 pip install huggingface_hub==0.20.2
 
 
+export HF_ENDPOINT=https://hf-mirror.com
+
+
 ===============================================================================================
 <div align="center">
 <h1>IDM-VTON: Improving Diffusion Models for Authentic Virtual Try-on in the Wild</h1>
